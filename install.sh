@@ -26,7 +26,7 @@ if [ ! -d $PHP_NAME ]; then
     tar xzf $PHP_NAME.tar.gz
 fi
 
-HTTPD_NAME="httpd-2.2.22";
+HTTPD_NAME="httpd-2.2.25";
 if [ ! -d $HTTPD_NAME ]; then
     wget "http://mirror.symnds.com/software/Apache/httpd/$HTTPD_NAME.tar.gz";
     tar xzf $HTTPD_NAME.tar.gz
