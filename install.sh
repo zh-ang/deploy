@@ -32,7 +32,7 @@ if [ ! -d $HTTPD_NAME ]; then
     tar xzf $HTTPD_NAME.tar.gz
 fi
 
-ZLIB_NAME="zlib-1.2.7";
+ZLIB_NAME="zlib-1.2.8";
 if [ ! -d $ZLIB_NAME ]; then
     wget "http://zlib.net/$ZLIB_NAME.tar.gz";
     tar xzf $ZLIB_NAME.tar.gz
@@ -44,7 +44,7 @@ if [ ! -d $SSL_NAME ]; then
     tar xzf $SSL_NAME.tar.gz
 fi
 
-CURL_NAME="curl-7.26.0";
+CURL_NAME="curl-7.26.1";
 if [ ! -d $CURL_NAME ]; then
     wget "http://curl.haxx.se/download/$CURL_NAME.tar.gz";
     tar xzf $CURL_NAME.tar.gz
@@ -56,7 +56,7 @@ if [ ! -d $LIBXML2_NAME ]; then
     tar xzf $LIBXML2_NAME.tar.gz
 fi
 
-AUTOCONF_NAME="autoconf-2.68";
+AUTOCONF_NAME="autoconf-2.69";
 if [ ! -d $AUTOCONF_NAME ]; then
     wget "http://ftp.gnu.org/gnu/autoconf/autoconf-2.68.tar.gz"
     tar xzvf $AUTOCONF_NAME.tar.gz
