@@ -20,7 +20,7 @@ mkdir local install www var tmp;
 
 cd $HOME_DIR/install;
 
-PHP_NAME="php-5.3.15";
+PHP_NAME="php-5.4.17";
 if [ ! -d $PHP_NAME ]; then
     wget "http://us.php.net/distributions/$PHP_NAME.tar.gz";
     tar xzf $PHP_NAME.tar.gz
