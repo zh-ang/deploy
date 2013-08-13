@@ -44,7 +44,7 @@ if [ ! -d $SSL_NAME ]; then
     tar xzf $SSL_NAME.tar.gz
 fi
 
-CURL_NAME="curl-7.26.1";
+CURL_NAME="curl-7.32.0";
 if [ ! -d $CURL_NAME ]; then
     wget "http://curl.haxx.se/download/$CURL_NAME.tar.gz";
     tar xzf $CURL_NAME.tar.gz
