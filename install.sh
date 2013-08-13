@@ -119,7 +119,6 @@ cd $PHP_NAME
 --enable-sockets \
 --with-iconv \
 --enable-mbstring \
---disable-dom \
 --without-sqlite
 #--with-mhash=$LIB_DIR/mhash-0.9.7.1 \
 #--with-gd=$LIB_DIR/gd-2.0.33 \
